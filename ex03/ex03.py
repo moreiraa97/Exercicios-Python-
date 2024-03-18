@@ -20,7 +20,7 @@ def contar_palavras(texto):
 
     return contagem_palavras
 
-texto = "Este texto é um teste para contagem de palavras que serão inseridas em um vetor e serão lidas e segmentadas em um dicionário apenas em letras minúsculas"
+texto = "Este texto e um teste para contagem de palavras que serao inseridas em um vetor e serao lidas e segmentadas em um dicionario apenas em letras minusculas"
 contagem = contar_palavras(texto)
 print("Contagem de palavras:")
 for palavra, frequencia in contagem.items():
